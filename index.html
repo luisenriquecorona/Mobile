@@ -1412,24 +1412,9 @@ function showButtons(style) {
 
 <table class="bordered">
 <td>
-	<tr>property in window.document
+	<tr>
 		<th>
-<html> 
-<body>
-<script type="text/javascript"> 
-var props=new Array(); 
-for ( var property in window.document){ 
-props.push(property); 
-}
-for(i=0;i<props.length; i++){ 
-document.write( props[i] + " "); 
-if( i>0 && i%4 == 0 ){
-document.write("<br />"); 
-}
-} 
-</script>
-</body> 
-</html>
+
 		</th>
 	</tr>
 </td>
@@ -1437,20 +1422,8 @@ document.write("<br />");
 
 <td>
 	<tr>
-		<th>property in navigator<br /><br />
-<html>  
-<body>
+		<th>
 
-<script type="text/javascript">
-for(var property in navigator){ 
-str="navigator"+"."+ property;
-document.write(property+ "&nbsp;&nbsp;<em>"+ 
-str+"</em><br /><br />");
-} 
-</script>
- 
-</body> 
-</html>
 		</th>
 	</tr>
 </td>
