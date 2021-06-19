@@ -1,0 +1,57 @@
+<!-- Estilo del club -->
+<!--  .drop-shadow {   margin:2em 20% 4em; } -->
+html, body { border:0 !important; background:none !important; }
+html { background-color:#FFFFFF !important; }
+html { background-repeat:repeat !important; }
+body{ font-size:12px !important; font-family:'Verdana', 'Arial', sans-serif !important; }
+
+body {
+	margin:50px 0px; padding:0px; 
+	text-align:center; 
+	}
+	
+ .drop-shadow {
+    position:relative;
+    float:left;    
+    padding:1em; 
+    background:#fff;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    }
+.logo { 
+        display:block !important; width:100% !important; height:100px;
+	}
+	
+	
+.drop-shadow:before,
+.drop-shadow:after {
+    content:"";
+    position:absolute; 
+    z-index:-2;
+}
+
+.drop-shadow p {
+   font-size:16px;
+   font-weight:bold;
+ }
+ .curved:before {
+    top:10px;
+    bottom:10px;
+    left:0;
+    right:50%;
+    -webkit-box-shadow:0 0 15px rgba(0,0,0,0.6);
+    -moz-box-shadow:0 0 15px rgba(0,0,0,0.6);
+    box-shadow:0 0 15px rgba(0,0,0,0.6);
+    -moz-border-radius:10px / 100px;
+    border-radius:10px / 100px;
+    }
+ .curved-hz-1:before {
+    top:50%;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+ }
+<!-- Estilo del club -->

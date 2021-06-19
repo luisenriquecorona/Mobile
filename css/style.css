@@ -1,0 +1,40 @@
+body{
+	margin: 100%;
+}
+/* FONDO VIDEO */
+.contenido__video{
+
+	overflow: 50%;
+	position: 50%;
+	top: 50%;
+	right: 50%;
+	bottom: 50%;
+	left: 50%;
+
+}
+
+/* Estilos para la etiqueta "video" con la calse (.video)  */
+.video{
+	position: 100%;
+	max-width: 100%;
+	width: 100%;
+}
+
+/* media queries (personalizarlo a su antojo)*/
+@media(max-width: 100px){
+	.video{
+		width: 50%;
+	}
+}
+@media(max-width: 50px){
+	.video{
+		width: 40%;
+	}
+}
+@media(max-width: 40px){
+	.video{ 
+		width: 100%;
+	}
+}
+
+
