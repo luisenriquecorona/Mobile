@@ -57,6 +57,10 @@
 <link rel="apple-touch-startup-image" sizes="640x1096" href="https://image.flaticon.com/icons/png/128/2905/2905182.png" />
 
 <link rel="shortcut icon" href="https://image.flaticon.com/icons/png/128/2905/2905182.png">
+											  
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+
+<link rel="stylesheet" href="/FullScreen/live_examples.css" type="text/css">
 
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
 	<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
@@ -231,10 +235,6 @@ table {
   
 </style>
 
-<head>
-<meta http-equiv="content-type" content="text/html; charset=windows-1252">
-
-<link rel="stylesheet" href="/FullScreen/live_examples.css" type="text/css">
 <script language="javascript">
 
 function launchFullScreen(element) {
@@ -248,14 +248,15 @@ function launchFullScreen(element) {
 }
 </script>
 
-</head>
-
-<body>
 <div align="center">
 <input value="Full Screen Mode" onclick="launchFullScreen(document.documentElement);" class="ui animated button" type="button">
 </div>
+															      
+	<div data-role="page" class="jqm-demos" data-quicklinks="true">
 
-</body>
+		<div role="main" class="ui-content jqm-content jqm-fullwidth">
+
+
 
 <br />
 														  
@@ -308,7 +309,6 @@ document.write("<b>Idioma del Navegador en Explorer:</b> "+navigator.userLanguag
 
 <hr>
 
-<b>
 <script type="text/javascript"> 
 if (document.getElementById && document.createTextNode){
 document.write("Supported DOM by " + navigator.appName); 
@@ -317,7 +317,6 @@ document.write("Supported DOM by " + navigator.appName);
 
 <hr>
 
-<c>
 <script>
 
 function getBrowserName() {
@@ -365,7 +364,7 @@ document.write("Opera is fully supported");
 document.write("Sorry this browser version is not supported");
 }
 </script>
-</c>
+
 <br />
 <img src="https://image.flaticon.com/icons/png/128/3443/3443487.png"></img>
 
@@ -454,9 +453,9 @@ document.lastModified + end_tag);
 </head>
 
 <body ng-controller="MainCtrl as vm">
-<h1>Mobile-Detect Check</h1>
+<h2>Mobile-Detect Check</h2>
 
-<h2>Result:</h2>
+<p>Result:</p>
 <dl>
     <dt ng-repeat-start="item in vm.outcome">
         {{item.key}}
@@ -504,7 +503,7 @@ document.lastModified + end_tag);
 		<th>
 <html>
   <body>
-     <p>Gateway: <strong id="ipId"></strong><img src="https://image.flaticon.com/icons/png/128/3534/3534649.png"></img></p>
+     <h2>Gateway: <strong id="ipId"></strong><img src="https://image.flaticon.com/icons/png/128/3534/3534649.png"></img></h2>
     <script type="text/javascript">
         function get_ip(obj){
             document.getElementById('ipId').innerHTML = obj.ip;
@@ -631,7 +630,7 @@ if (RTCPeerConnection) (function () {
 	<tr>
 		<th>
    <body>
-      <p>Network Information Mobile API</p>
+      <h2>Network Information Mobile API</h2>
  
       <span id="ni-unsupported" class="api-support hidden">API not supported</span>
       <span id="nio-supported" class="api-support hidden">Old API version supported</span>
@@ -710,15 +709,6 @@ if (RTCPeerConnection) (function () {
 
 <html>
 <head>
-	<!-- Standard Meta -->
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<!-- Site Properities -->
-	<title>ALERTIFY JS - Semantic UI</title>
-	<meta name="description" content="AlertifyJS is a javascript framework for developing pretty browser dialogs and notifications.">
-	<meta name="keywords" content="alert, notify, alertify, dialog, notification, js, javascript, growl, css">
 	
 	<link rel="stylesheet" href="https://alertifyjs.com/build/css/alertify.css">
 	<link rel="stylesheet" href="https://alertifyjs.com/build/css/themes/semantic.css">
@@ -776,7 +766,7 @@ if (RTCPeerConnection) (function () {
 		<th>
 <html>
    <body>
-    <h1>Vibration Mobile API</h1>
+    <h2>Vibration Mobile API</h2>
     <div class="buttons-wrapper">
       <button id="button-play-v-once" class="ui animated button">Vibrate Once</button>
       <button id="button-play-v-thrice" class="ui animated button">Vibrate Thrice</button>
@@ -813,7 +803,7 @@ if (RTCPeerConnection) (function () {
 		<th>
 <html>
 <body>
-<h1>Slider</h1>
+<h2>Slider</h2>
 <form align="center" name="form1">
 <p>
 <label for="minValue">Min: </label>
@@ -992,9 +982,9 @@ a.c1 {font-weight: normal;}
     <div class="browser-landing" id="main">
       <div class="compact marquee-stacked" id="marquee">
         <div class="marquee-copy">
-          <h1>
+          <h2>
             Web Speech API Mobile Demonstration
-          </h1>
+          </h2>
         </div>
       </div>
       <div class="compact marquee">
@@ -1418,6 +1408,10 @@ function showButtons(style) {
 </td>
 
 </table>
+
+</div>
+
+</div>
 
 <br />
 
